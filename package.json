@@ -1,15 +1,15 @@
 {
   "name": "messagely",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "jest -i"
+    "test": "jest -i",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bcrypt": "^3.0.2",
+    "bcrypt": "^3.0.6",
     "body-parser": "^1.18.3",
     "cors": "^2.8.4",
     "dotenv": "^6.1.0",
@@ -17,5 +17,15 @@
     "express-cors": "0.0.3",
     "jsonwebtoken": "^8.3.0",
     "pg": "^7.5.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nathanmass1/express-messagely.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/nathanmass1/express-messagely/issues"
+  },
+  "homepage": "https://github.com/nathanmass1/express-messagely#readme",
+  "description": ""
 }
